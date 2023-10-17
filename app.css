@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.square {
+  margin: auto;
+  height: 500px;
+  width: 500px;
+  background-color: rgb(224, 138, 138);
+  /* border: 1px solid rgb(224, 138, 138); */
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 20px 10px rgb(44, 35, 35);
+  transition: background-color 0.25s, box-shadow 0.25s;
+}
+
+h1 {
+  margin: auto;
+  color: white;
+  font-size: 70px;
+}
+
+button {
+  height: 60px;
+  width: 120px;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  background-color: rgb(84, 215, 233);
+}
+
+button:hover {
+  background-color: rgb(23, 150, 167);
+}
