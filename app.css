@@ -41,6 +41,7 @@ button {
 
 .change {
   background-color: rgb(84, 215, 233);
+  width: 150px;
 }
 
 .change:hover {
