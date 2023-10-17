@@ -1,0 +1,12 @@
+In the Javascript file, I selected the div with the class "square", the h1 with its number, and the buttons for, the change color & number, redo, undo.
+When we click on the "Change Color & Number" button, a function will generate a random color in
+HSL format, which is applied in both the background color and on the box shadow of our square with some
+smoothe palette colors.
+I have created a function which stores the current memory of the square, number, background color and the box shadow.
+This memory will then be saved in an array called memory so it can be used for the undo and redo functions.
+When we click the "Undo" button, the code will revert back to the previous memory, which means that the square will be revearted back
+to the previous number, background color, and box shadow.
+The "Redo" button will do the opposite, by moving forward to the next memory by applying the next background color, number, and box shadow.
+The "Change Color & Number" buttton will change both the number by incrementing it by one (based on how many times it has been clicked), change the background color, and the box shadow.
+When we click the button, it will randomly generate those colors. After clicking it, the current memory will be saved in the "memory" array which will be used for the "Undo" and "Redo" buttons.
+
